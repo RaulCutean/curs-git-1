@@ -1,0 +1,33 @@
+/* START RESET */
+body {
+  -webkit-print-color-adjust: exact !important;
+}
+html {
+  font-size: 16px; /* sets text size to 1 rem */
+}
+
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* END RESET */
+.container {
+  max-width: 960px;
+  width: 98%;
+  margin: auto;
+  padding: 0 1.5rem;
+}

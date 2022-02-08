@@ -1,0 +1,92 @@
+/* START RESET */
+body {
+  -webkit-print-color-adjust: exact !important;
+}
+html {
+  font-size: 10px; /* Stabilim dimensiunea de irem*/
+}
+body {
+  font-family: sans-serif;
+  min-height: 2000px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* END RESET */
+.navbar .navbar-brand img {
+  height: 75px;
+}
+.section {
+  padding: 6rem 0;
+}
+.container {
+  width: 120rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+.col {
+  flex: 1;
+  padding: 0 1.5rem;
+}
+h1 {
+  text-align: center;
+}
+.row {
+  padding: 40px;
+}
+
+.dataEventPost span {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+.dataEventPost span i {
+  margin-right: 0px;
+}
+.calendar-col {
+  border: 2px solid grey;
+}
+.caption {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  border: 2px solid grey;
+  margin-bottom: 10px;
+}
+h3 {
+  padding-left: 10px;
+}
+.fa {
+  padding-left: 5px;
+}
+.pula {
+  color: white;
+  border: 2px solid rgb(34, 187, 34);
+  border-radius: 2px;
+  background-color: rgb(34, 187, 34);
+  padding: 20px 50px 20px 50px;
+  transition: 0.5s;
+}
+.pula:hover {
+  background-color: white;
+}
+.col-pula {
+  margin-top: 20px;
+}
+p {
+  font-size: 1.6rem;
+  text-align: center;
+}

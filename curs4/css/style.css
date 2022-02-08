@@ -1,0 +1,156 @@
+/* START RESET */
+body {
+  -webkit-print-color-adjust: exact !important;
+}
+html {
+  font-size: 16px; /* sets text size to 1 rem */
+}
+
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* END RESET */
+.container {
+  max-width: 960px;
+  width: 98%;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.row {
+  margin: 0 -1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .col {
+    flex: 1;
+    padding: 0 1.5rem;
+    border: 1px dotted green;
+} */
+
+div[class*="col"] {
+  padding: 0 1.5rem;
+  border: 1px solid black;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  /* 1/2 din parinte */
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.container {
+  background-color: grey;
+}
+
+/* 
+ desktop >= 1025 px 
+ tablet <= 1024 px 
+ mobile <= 767 px 
+
+
+*/
+@media (max-width: 1024px) {
+  /* tablete */
+  .container {
+    background-color: blue;
+  }
+  .col-t-6 {
+    width: 50%;
+  }
+  .col-t-4 {
+    width: 33.3333%;
+  }
+  .col-t-3 {
+    width: 25%;
+  }
+}
+@media (max-width: 767px) {
+  /* mobile */
+  .container {
+    background-color: lightblue;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-4 {
+    width: 33.3333%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+}
+@media (min-width: 1921px) {
+  /* 2k */
+  .container {
+    background-color: red;
+  }
+}
+/*@media (min-width: 3650px) {
+  /* 4k */
+/* .container {
+    background-color: blue;
+  }
+}
+@media (max-width: 1024px) and (orientation: portrait) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media (max-width: 1024px) and (orientation: landscape) {
+  body {
+    background-color: lightsalmon;
+  }
+} */
+/*@media (orientation: portrait) {
+  body {
+    background-color: lime;
+  }
+}
+@media (orientation: landscape) {
+  body {
+    background-color: lime;
+  }
+}
+*/
+
+@media screen and (max-width: 1024px) {
+  body {
+    background: green;
+  }
+}
+@media print {
+  .container {
+    background: black;
+  }
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik+Beastly&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url();
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: -30rem;
+}
+
+.countdown-timer {
+  display: flex;
+}
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+.countdown-ok {
+  text-align: center;
+}
+.countdown-ok span {
+  font-size: 1.3rem;
+}
+.pula-bbc {
+  justify-content: center;
+  max-width: 100%;
+  align-items: center;
+}
